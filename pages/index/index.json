@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "查看启动日志",
+  "usingComponents": {
+    "cool-navbar": "../../cool-component/cool-navbar/cool-navbar"
+  }
+}

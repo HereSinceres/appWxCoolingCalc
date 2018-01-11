@@ -1,0 +1,10 @@
+<!-- 这是自定义组件的内部WXML结构 -->
+<view class="cool-navbar-container">
+  <view class="cool-navbar-tab-container">
+    <text class="cool-navbar-tab active">Cooling</text>
+    <text class="cool-navbar-tab">计算器</text>
+  </view>
+  <view class="cool-navbar-other-container">
+    <text class="cool-navbar-other-text">{{userInfo.nickName}}</text>
+  </view>
+</view>

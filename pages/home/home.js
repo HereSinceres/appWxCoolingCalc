@@ -1,9 +1,13 @@
+
+const app = getApp()
 Page({
   data: {
-    text: "This is page data."
+    userInfo:null
   },
   onLoad: function (options) {
-    // Do some initialize when page load.
+    this.setData({
+      userInfo: app.globalData.userInfo
+    })
   },
   onReady: function () {
     // Do something when page ready.
